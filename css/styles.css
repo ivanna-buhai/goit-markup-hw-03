@@ -1,0 +1,103 @@
+
+body {font-family: "Roboto", sans-serif;
+color: #434455; background-color: #fff;}
+
+ul {list-style-type: none;}
+
+a {text-decoration: none}
+
+h2 {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform:capitalize;
+color: #2E2F42;}
+
+h3 {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+p {font-weight: 400;
+    font-size: 16px; 
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+color: #434455;}
+
+    address {font-style: normal}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;}
+
+
+/*header*/
+
+.header-logo-part {color: #2E2F42}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.nav-link:hover, .nav-link:focus {color: #404BBF;}
+
+.address-link {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.address-link:hover, .address-link:focus {color: #404BBF}
+
+/*section-main*/
+
+.section-main {background-color: #2E2F42;}
+
+.heading-main {color: #FFFFFF;
+font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;}
+
+.button-main {font-family: inherit;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;}
+
+.button-main:hover, .button-main:focus {background-color: #404BBF;}
+
+
+/*section-team*/
+
+.section-team {background-color: #F4F4FD;}
+
+.section-team-item {background-color: #FFFFFF;}
+
+/*footer*/
+
+.footer {background-color: #2E2F42;}
+
+.footer-logo-part {color: #F4F4FD;}
+
+.footer-paragraf {color: #F4F4FD; line-height: 1.5;}
+
