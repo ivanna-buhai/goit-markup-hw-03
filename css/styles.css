@@ -44,7 +44,7 @@ color: #434455;}
         padding: 0 15px;
     }
 
-    .section {padding: 120px 0;}
+section {padding: 120px 0;}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -57,7 +57,8 @@ color: #434455;}
 
 
 /*header*/
-header {border-bottom: 1px solid #E7E9FC;}
+.header {border-bottom: 1px solid #E7E9FC;}
+
 .header-logo-part {color: #2E2F42}
 
 .header .logo {margin-right: 76px;}
