@@ -61,8 +61,7 @@ section {padding: 120px 0;}
 
 .header-logo-part {color: #2E2F42}
 
-.header .logo {margin-right: 76px;
-padding: 24px 0;}
+.header .logo {margin-right: 76px;}
 
 .header .container {display: flex;
     align-items: center;
@@ -85,6 +84,7 @@ padding: 24px 0;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding: 24px 0;
 }
 
 .nav-link:hover, .nav-link:focus {color: #404BBF;}
@@ -141,7 +141,7 @@ min-width: 169px;
 
 /*section-features*/
 
-.section-features .second-heading {position: absolute;
+.visually-hidden {position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
@@ -151,10 +151,11 @@ min-width: 169px;
     white-space: nowrap;
     border: 0;}
 
-.features-item {display: flex;
-    justify-content: space-between;
-gap: 24px;
-width:calc((100%-3*24px)/4);}
+    .features-list {display: flex;
+        gap: 24px;}
+
+.features-item {
+width:calc((100%-72px)/4);}
 
 .section-features .third-heading {margin-bottom: 8px;}
 
@@ -194,7 +195,7 @@ text-align: center;}
     flex-wrap: wrap;
 }
 
-.portfolio-item {width:calc((100%-48px)/3)}
+.portfolio-item {width: calc((100% - 48px) / 3)}
 
 .section-portfolio-apps {padding: 32px 16px;
 border: 1px solid #E7E9FC;
